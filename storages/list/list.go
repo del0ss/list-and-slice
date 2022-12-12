@@ -86,13 +86,7 @@ func (l *List) Delete(index int64) (ok bool) {
 }
 
 func (l *List) Get(index int64) (data any) {
-	//TODO check index
-	/*
-		if index > l.Len-1 {
-			return false
-		}
 
-	*/
 
 	currentNode := l.FirstNode
 	for n := int64(0); n < index; n++ {
