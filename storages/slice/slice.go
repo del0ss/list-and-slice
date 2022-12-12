@@ -35,7 +35,6 @@ func (s *Slice) Print() {
 }
 
 func (s *Slice) Get(index int64) (data any) {
-	//TODO check index
 	return s.sl[index]
 }
 
